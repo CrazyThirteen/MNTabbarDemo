@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545D0DF71D5ABC4E000FE679 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0DF61D5ABC4E000FE679 /* UIView+Extension.m */; };
+		545D0DFA1D5ABFA6000FE679 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0DF91D5ABFA6000FE679 /* Constants.m */; };
+		545D0DFD1D5ACB5C000FE679 /* MNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0DFC1D5ACB5C000FE679 /* MNNavigationController.m */; };
+		545D0E011D5ACE42000FE679 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0E001D5ACE42000FE679 /* FirstViewController.m */; };
+		545D0E041D5ACE4D000FE679 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0E031D5ACE4D000FE679 /* SecondViewController.m */; };
+		545D0E071D5ACE56000FE679 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0E061D5ACE56000FE679 /* ThirdViewController.m */; };
+		545D0E0A1D5ACE66000FE679 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 545D0E091D5ACE66000FE679 /* FourthViewController.m */; };
+		54C5D2F81D59CEBC00EA0BFD /* MNTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5D2F71D59CEBC00EA0BFD /* MNTabBar.m */; };
+		54C5D2FB1D59D2A200EA0BFD /* MNTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5D2FA1D59D2A200EA0BFD /* MNTabBarButton.m */; };
+		54C5D2FE1D59D2DC00EA0BFD /* MNPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5D2FD1D59D2DC00EA0BFD /* MNPopMenuView.m */; };
+		54C5D3011D59D32700EA0BFD /* MNBaseBorderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5D3001D59D32700EA0BFD /* MNBaseBorderCell.m */; };
+		54C5D3041D59D3B200EA0BFD /* MNPopMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5D3031D59D3B200EA0BFD /* MNPopMenuCell.m */; };
+		54C6F2DC1D583476007DC59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6F2DB1D583476007DC59E /* main.m */; };
+		54C6F2DF1D583476007DC59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6F2DE1D583476007DC59E /* AppDelegate.m */; };
+		54C6F2E71D583476007DC59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C6F2E61D583476007DC59E /* Assets.xcassets */; };
+		54C6F2EA1D583476007DC59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C6F2E81D583476007DC59E /* LaunchScreen.storyboard */; };
+		54C6F2F51D583476007DC59E /* MNTabbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6F2F41D583476007DC59E /* MNTabbarDemoTests.m */; };
+		54C6F3001D583476007DC59E /* MNTabbarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6F2FF1D583476007DC59E /* MNTabbarDemoUITests.m */; };
+		54C6F30F1D58351E007DC59E /* MNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C6F30E1D58351E007DC59E /* MNTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C6F2F11D583476007DC59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C6F2CF1D583476007DC59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C6F2D61D583476007DC59E;
+			remoteInfo = MNTabbarDemo;
+		};
+		54C6F2FC1D583476007DC59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C6F2CF1D583476007DC59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C6F2D61D583476007DC59E;
+			remoteInfo = MNTabbarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		545D0DF21D5ABB33000FE679 /* MNTabbarDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MNTabbarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		545D0DF51D5ABC4E000FE679 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		545D0DF61D5ABC4E000FE679 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		545D0DF81D5ABFA6000FE679 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		545D0DF91D5ABFA6000FE679 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		545D0DFB1D5ACB5C000FE679 /* MNNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNNavigationController.h; sourceTree = "<group>"; };
+		545D0DFC1D5ACB5C000FE679 /* MNNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNNavigationController.m; sourceTree = "<group>"; };
+		545D0DFF1D5ACE42000FE679 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		545D0E001D5ACE42000FE679 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		545D0E021D5ACE4D000FE679 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		545D0E031D5ACE4D000FE679 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		545D0E051D5ACE56000FE679 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		545D0E061D5ACE56000FE679 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		545D0E081D5ACE66000FE679 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		545D0E091D5ACE66000FE679 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		54C5D2F61D59CEBC00EA0BFD /* MNTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTabBar.h; sourceTree = "<group>"; };
+		54C5D2F71D59CEBC00EA0BFD /* MNTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTabBar.m; sourceTree = "<group>"; };
+		54C5D2F91D59D2A200EA0BFD /* MNTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTabBarButton.h; sourceTree = "<group>"; };
+		54C5D2FA1D59D2A200EA0BFD /* MNTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTabBarButton.m; sourceTree = "<group>"; };
+		54C5D2FC1D59D2DC00EA0BFD /* MNPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPopMenuView.h; sourceTree = "<group>"; };
+		54C5D2FD1D59D2DC00EA0BFD /* MNPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPopMenuView.m; sourceTree = "<group>"; };
+		54C5D2FF1D59D32700EA0BFD /* MNBaseBorderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNBaseBorderCell.h; sourceTree = "<group>"; };
+		54C5D3001D59D32700EA0BFD /* MNBaseBorderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNBaseBorderCell.m; sourceTree = "<group>"; };
+		54C5D3021D59D3B200EA0BFD /* MNPopMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNPopMenuCell.h; sourceTree = "<group>"; };
+		54C5D3031D59D3B200EA0BFD /* MNPopMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNPopMenuCell.m; sourceTree = "<group>"; };
+		54C6F2D71D583476007DC59E /* MNTabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNTabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6F2DB1D583476007DC59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C6F2DD1D583476007DC59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54C6F2DE1D583476007DC59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54C6F2E61D583476007DC59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54C6F2E91D583476007DC59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54C6F2EB1D583476007DC59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C6F2F01D583476007DC59E /* MNTabbarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNTabbarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6F2F41D583476007DC59E /* MNTabbarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNTabbarDemoTests.m; sourceTree = "<group>"; };
+		54C6F2F61D583476007DC59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C6F2FB1D583476007DC59E /* MNTabbarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNTabbarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C6F2FF1D583476007DC59E /* MNTabbarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNTabbarDemoUITests.m; sourceTree = "<group>"; };
+		54C6F3011D583476007DC59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C6F30D1D58351E007DC59E /* MNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNTabBarController.h; sourceTree = "<group>"; };
+		54C6F30E1D58351E007DC59E /* MNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C6F2D41D583476007DC59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2ED1D583476007DC59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2F81D583476007DC59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545D0DF41D5ABC40000FE679 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				545D0DF51D5ABC4E000FE679 /* UIView+Extension.h */,
+				545D0DF61D5ABC4E000FE679 /* UIView+Extension.m */,
+				545D0DF81D5ABFA6000FE679 /* Constants.h */,
+				545D0DF91D5ABFA6000FE679 /* Constants.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		545D0DFE1D5ACCAA000FE679 /* sublevelVC */ = {
+			isa = PBXGroup;
+			children = (
+				545D0DFF1D5ACE42000FE679 /* FirstViewController.h */,
+				545D0E001D5ACE42000FE679 /* FirstViewController.m */,
+				545D0E021D5ACE4D000FE679 /* SecondViewController.h */,
+				545D0E031D5ACE4D000FE679 /* SecondViewController.m */,
+				545D0E051D5ACE56000FE679 /* ThirdViewController.h */,
+				545D0E061D5ACE56000FE679 /* ThirdViewController.m */,
+				545D0E081D5ACE66000FE679 /* FourthViewController.h */,
+				545D0E091D5ACE66000FE679 /* FourthViewController.m */,
+			);
+			name = sublevelVC;
+			sourceTree = "<group>";
+		};
+		54C5D2F41D59CE5000EA0BFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54C5D2F61D59CEBC00EA0BFD /* MNTabBar.h */,
+				54C5D2F71D59CEBC00EA0BFD /* MNTabBar.m */,
+				54C5D2F91D59D2A200EA0BFD /* MNTabBarButton.h */,
+				54C5D2FA1D59D2A200EA0BFD /* MNTabBarButton.m */,
+				54C5D2FC1D59D2DC00EA0BFD /* MNPopMenuView.h */,
+				54C5D2FD1D59D2DC00EA0BFD /* MNPopMenuView.m */,
+				54C5D3021D59D3B200EA0BFD /* MNPopMenuCell.h */,
+				54C5D3031D59D3B200EA0BFD /* MNPopMenuCell.m */,
+				54C5D2FF1D59D32700EA0BFD /* MNBaseBorderCell.h */,
+				54C5D3001D59D32700EA0BFD /* MNBaseBorderCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		54C5D2F51D59CE5F00EA0BFD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				545D0DFE1D5ACCAA000FE679 /* sublevelVC */,
+				545D0DFB1D5ACB5C000FE679 /* MNNavigationController.h */,
+				545D0DFC1D5ACB5C000FE679 /* MNNavigationController.m */,
+				54C6F30D1D58351E007DC59E /* MNTabBarController.h */,
+				54C6F30E1D58351E007DC59E /* MNTabBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		54C6F2CE1D583476007DC59E = {
+			isa = PBXGroup;
+			children = (
+				545D0DF41D5ABC40000FE679 /* Tool */,
+				54C6F2D91D583476007DC59E /* MNTabbarDemo */,
+				54C6F2F31D583476007DC59E /* MNTabbarDemoTests */,
+				54C6F2FE1D583476007DC59E /* MNTabbarDemoUITests */,
+				54C6F2D81D583476007DC59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C6F2D81D583476007DC59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C6F2D71D583476007DC59E /* MNTabbarDemo.app */,
+				54C6F2F01D583476007DC59E /* MNTabbarDemoTests.xctest */,
+				54C6F2FB1D583476007DC59E /* MNTabbarDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C6F2D91D583476007DC59E /* MNTabbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				54C6F2DD1D583476007DC59E /* AppDelegate.h */,
+				54C6F2DE1D583476007DC59E /* AppDelegate.m */,
+				54C5D2F51D59CE5F00EA0BFD /* Controllers */,
+				54C5D2F41D59CE5000EA0BFD /* Views */,
+				54C6F2E61D583476007DC59E /* Assets.xcassets */,
+				54C6F2E81D583476007DC59E /* LaunchScreen.storyboard */,
+				54C6F2EB1D583476007DC59E /* Info.plist */,
+				54C6F2DA1D583476007DC59E /* Supporting Files */,
+			);
+			path = MNTabbarDemo;
+			sourceTree = "<group>";
+		};
+		54C6F2DA1D583476007DC59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54C6F2DB1D583476007DC59E /* main.m */,
+				545D0DF21D5ABB33000FE679 /* MNTabbarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54C6F2F31D583476007DC59E /* MNTabbarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C6F2F41D583476007DC59E /* MNTabbarDemoTests.m */,
+				54C6F2F61D583476007DC59E /* Info.plist */,
+			);
+			path = MNTabbarDemoTests;
+			sourceTree = "<group>";
+		};
+		54C6F2FE1D583476007DC59E /* MNTabbarDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54C6F2FF1D583476007DC59E /* MNTabbarDemoUITests.m */,
+				54C6F3011D583476007DC59E /* Info.plist */,
+			);
+			path = MNTabbarDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C6F2D61D583476007DC59E /* MNTabbarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C6F3041D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemo" */;
+			buildPhases = (
+				54C6F2D31D583476007DC59E /* Sources */,
+				54C6F2D41D583476007DC59E /* Frameworks */,
+				54C6F2D51D583476007DC59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNTabbarDemo;
+			productName = MNTabbarDemo;
+			productReference = 54C6F2D71D583476007DC59E /* MNTabbarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C6F2EF1D583476007DC59E /* MNTabbarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C6F3071D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemoTests" */;
+			buildPhases = (
+				54C6F2EC1D583476007DC59E /* Sources */,
+				54C6F2ED1D583476007DC59E /* Frameworks */,
+				54C6F2EE1D583476007DC59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C6F2F21D583476007DC59E /* PBXTargetDependency */,
+			);
+			name = MNTabbarDemoTests;
+			productName = MNTabbarDemoTests;
+			productReference = 54C6F2F01D583476007DC59E /* MNTabbarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54C6F2FA1D583476007DC59E /* MNTabbarDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C6F30A1D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemoUITests" */;
+			buildPhases = (
+				54C6F2F71D583476007DC59E /* Sources */,
+				54C6F2F81D583476007DC59E /* Frameworks */,
+				54C6F2F91D583476007DC59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C6F2FD1D583476007DC59E /* PBXTargetDependency */,
+			);
+			name = MNTabbarDemoUITests;
+			productName = MNTabbarDemoUITests;
+			productReference = 54C6F2FB1D583476007DC59E /* MNTabbarDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C6F2CF1D583476007DC59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "钱进";
+				TargetAttributes = {
+					54C6F2D61D583476007DC59E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					54C6F2EF1D583476007DC59E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54C6F2D61D583476007DC59E;
+					};
+					54C6F2FA1D583476007DC59E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54C6F2D61D583476007DC59E;
+					};
+				};
+			};
+			buildConfigurationList = 54C6F2D21D583476007DC59E /* Build configuration list for PBXProject "MNTabbarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54C6F2CE1D583476007DC59E;
+			productRefGroup = 54C6F2D81D583476007DC59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C6F2D61D583476007DC59E /* MNTabbarDemo */,
+				54C6F2EF1D583476007DC59E /* MNTabbarDemoTests */,
+				54C6F2FA1D583476007DC59E /* MNTabbarDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C6F2D51D583476007DC59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C6F2EA1D583476007DC59E /* LaunchScreen.storyboard in Resources */,
+				54C6F2E71D583476007DC59E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2EE1D583476007DC59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2F91D583476007DC59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C6F2D31D583476007DC59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545D0DF71D5ABC4E000FE679 /* UIView+Extension.m in Sources */,
+				545D0E041D5ACE4D000FE679 /* SecondViewController.m in Sources */,
+				54C5D2FB1D59D2A200EA0BFD /* MNTabBarButton.m in Sources */,
+				54C5D3041D59D3B200EA0BFD /* MNPopMenuCell.m in Sources */,
+				54C5D2F81D59CEBC00EA0BFD /* MNTabBar.m in Sources */,
+				545D0DFD1D5ACB5C000FE679 /* MNNavigationController.m in Sources */,
+				545D0E0A1D5ACE66000FE679 /* FourthViewController.m in Sources */,
+				545D0E071D5ACE56000FE679 /* ThirdViewController.m in Sources */,
+				54C6F30F1D58351E007DC59E /* MNTabBarController.m in Sources */,
+				545D0DFA1D5ABFA6000FE679 /* Constants.m in Sources */,
+				545D0E011D5ACE42000FE679 /* FirstViewController.m in Sources */,
+				54C6F2DF1D583476007DC59E /* AppDelegate.m in Sources */,
+				54C5D2FE1D59D2DC00EA0BFD /* MNPopMenuView.m in Sources */,
+				54C5D3011D59D32700EA0BFD /* MNBaseBorderCell.m in Sources */,
+				54C6F2DC1D583476007DC59E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2EC1D583476007DC59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C6F2F51D583476007DC59E /* MNTabbarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C6F2F71D583476007DC59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C6F3001D583476007DC59E /* MNTabbarDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C6F2F21D583476007DC59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C6F2D61D583476007DC59E /* MNTabbarDemo */;
+			targetProxy = 54C6F2F11D583476007DC59E /* PBXContainerItemProxy */;
+		};
+		54C6F2FD1D583476007DC59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C6F2D61D583476007DC59E /* MNTabbarDemo */;
+			targetProxy = 54C6F2FC1D583476007DC59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C6F2E81D583476007DC59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C6F2E91D583476007DC59E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C6F3021D583476007DC59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C6F3031D583476007DC59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C6F3051D583476007DC59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNTabbarDemo/MNTabbarDemo-Prefix.pch";
+				INFOPLIST_FILE = MNTabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54C6F3061D583476007DC59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MNTabbarDemo/MNTabbarDemo-Prefix.pch";
+				INFOPLIST_FILE = MNTabbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54C6F3081D583476007DC59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MNTabbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNTabbarDemo.app/MNTabbarDemo";
+			};
+			name = Debug;
+		};
+		54C6F3091D583476007DC59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MNTabbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNTabbarDemo.app/MNTabbarDemo";
+			};
+			name = Release;
+		};
+		54C6F30B1D583476007DC59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MNTabbarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MNTabbarDemo;
+			};
+			name = Debug;
+		};
+		54C6F30C1D583476007DC59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MNTabbarDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qianjin.MNTabbarDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MNTabbarDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C6F2D21D583476007DC59E /* Build configuration list for PBXProject "MNTabbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6F3021D583476007DC59E /* Debug */,
+				54C6F3031D583476007DC59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C6F3041D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6F3051D583476007DC59E /* Debug */,
+				54C6F3061D583476007DC59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C6F3071D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6F3081D583476007DC59E /* Debug */,
+				54C6F3091D583476007DC59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C6F30A1D583476007DC59E /* Build configuration list for PBXNativeTarget "MNTabbarDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C6F30B1D583476007DC59E /* Debug */,
+				54C6F30C1D583476007DC59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54C6F2CF1D583476007DC59E /* Project object */;
+}
